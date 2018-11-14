@@ -1,0 +1,11 @@
+{
+  "name": "my-home-page",
+  "version": "1.0.0",
+  "description": "my home page",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git subtree push --prefix ./website/build/my-home-page deploy master"
+  },
+  "license": "MIT"
+}
